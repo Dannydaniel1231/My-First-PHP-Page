@@ -14,7 +14,21 @@ Tel:<input type="tel"><br><br>
 Gender:<input type="radio" value="male" name="gender"><br><br>
 <input type="radio" value="female" name="gender"><br><br>
 Age:<input type="text"><br><br>
-<input type="submit" value="submit">
+<input type="submit" value="submit"><br><br>
+ <?php 
+ $txt = "Hello world!";
  
+ $x = 5;
+ $y = 10.5;
+ 
+ echo $x+$y;
+ 
+ 
+//  var_dump(used to know data type)
+// str_word_count(used to count words in a string)
+//    strlen(return the length of a string)
+// strpos(used to know the posion of a string)
+
+?>
 </body>
 </html>
