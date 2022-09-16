@@ -1,3 +1,7 @@
+
+QUESTION1:
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,28 +11,61 @@
     <title>My First PHP Page</title>
 </head>
 <body>
-username:<input type="text"><br><br>
-password:<input type="password"><br><br>
-Email:<input type="text"><br><br>
-Tel:<input type="tel"><br><br>
-Gender:<input type="radio" value="male" name="gender"><br><br>
-<input type="radio" value="female" name="gender"><br><br>
-Age:<input type="text"><br><br>
-<input type="submit" value="submit"><br><br>
- <?php 
- $txt = "Hello world!";
- 
- $x = 5;
- $y = 10.5;
- 
- echo $x+$y;
- 
- 
-//  var_dump(used to know data type)
-// str_word_count(used to count words in a string)
-//    strlen(return the length of a string)
-// strpos(used to know the posion of a string)
+<?php 
+function sum($nbr1,$nbr2,$nbr3,$nbr4){
+    $sum=$nbr1+$nbr2+$nbr3+$nbr4;
+    echo $sum;
+}
+sum(5,2,3,4);
 
+QUESTION2:
+
+echo "<br>";
+echo "/"."***************************************************"."/";
+echo"<br>
+*Name (s): NDUWAYEZU Divin<br>
+*Student ID: 22/16511<br>
+*INES – RUHENGERI<br>
+*Faculty of Applied Fundamental Sciences<br>
+*Department of your department: CS<br>
+*Class: your Level: II<br>
+*Course: Advanced Web design and Delopment<br>
+";
+echo "/"."***************************************************"."/";
+
+QUESTION3
+
+echo "<br>";
+
+$name="President";
+$present="Cow";
+$age=40;
+$city="bujumbura";
+$yourName="Divin";
+
+
+echo "
+
+Dear $name,<br>
+Thank you for the $present. I really like it.<br>
+I can’t believe I’m aleady $age years old, but it doesn’t fell that much different than being <br>";
+echo $age-1;echo ". <br>";
+echo "
+I hope that some time in the next year we can come visit you in $city.<br>
+Thank you once again for the $present.<br>
+Sincerely,<br>
+$yourName
+"."<br>";
+
+QUESTION4
+
+
+$pi=3.14;
+$radius=3;
+$p= 2 * $pi *$radius;
+$a= $pi * ($radius * $radius);
+$v = (4/3) * $pi * ($radius * $radius * $radius);
+echo "P =".$p."<br>"."A =".$a."<br>"."V = ".$v;
 ?>
 </body>
 </html>
