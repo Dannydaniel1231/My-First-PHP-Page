@@ -1,5 +1,5 @@
 
-QUESTION1:
+<!-- QUESTION1: -->
 
 
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ echo"<br>
 ";
 echo "/"."***************************************************"."/";
 
-QUESTION3
+// QUESTION3
 
 echo "<br>";
 
@@ -57,7 +57,7 @@ Sincerely,<br>
 $yourName
 "."<br>";
 
-QUESTION4
+// QUESTION4
 
 
 $pi=3.14;
