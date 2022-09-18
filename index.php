@@ -18,7 +18,7 @@ function sum($nbr1,$nbr2,$nbr3,$nbr4){
 }
 sum(5,2,3,4);
 
-QUESTION2:
+// QUESTION 2:
 
 echo "<br>";
 echo "/"."***************************************************"."/";
@@ -33,7 +33,7 @@ echo"<br>
 ";
 echo "/"."***************************************************"."/";
 
-// QUESTION3
+// QUESTION 3
 
 echo "<br>";
 
@@ -57,7 +57,7 @@ Sincerely,<br>
 $yourName
 "."<br>";
 
-// QUESTION4
+// QUESTION 4
 
 
 $pi=3.14;
